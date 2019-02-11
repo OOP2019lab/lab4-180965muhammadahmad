@@ -30,7 +30,8 @@ public:
 	float getavg();
 	void print();
 	void comparison(cricketteam);
-	
+	// it is a destructor
+	~cricketteam();
 
 
 
