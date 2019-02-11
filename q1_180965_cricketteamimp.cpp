@@ -196,3 +196,14 @@ void cricketteam::comparison(cricketteam anoynymous)
 	}
 
 }
+
+
+//this is destructorstructor
+CricketTeam::~CricketTeam() 
+{
+	delete[]membernames;
+	membernames = nullptr;
+
+	delete[]teamName;
+	teamName = nullptr;
+}
